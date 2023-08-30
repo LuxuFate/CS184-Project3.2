@@ -1,0 +1,148 @@
+Performing C++ SOURCE FILE Test HAVE_AVX_EXTENSIONS failed with the following compile output:
+Change Dir: /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ff1c2 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ff1c2 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 77f60be9a780f9b3b486c949bd55d896
+Build description path: /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/XCBuildData/77f60be9a780f9b3b486c949bd55d896-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/EagerLinkingTBDs
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/cmTC_ff1c2.LinkFileList (in target 'cmTC_ff1c2' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW
+    write-file /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/cmTC_ff1c2.LinkFileList
+
+CompileC /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/src.o /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ff1c2' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos12.5 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_AVX_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug/include -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/DerivedSources-normal/x86_64 -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/DerivedSources/x86_64 -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/DerivedSources -F/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug -mavx -MMD -MT dependencies -MF /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/src.dia -c /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/src.cxx -o /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/src.o
+
+Ld /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug/cmTC_ff1c2 normal (in target 'cmTC_ff1c2' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos12.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/EagerLinkingTBDs -L/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug -F/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/EagerLinkingTBDs -F/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug -filelist /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/cmTC_ff1c2.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/cmTC_ff1c2_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/build/cmTC_ff1c2.build/Debug/Objects-normal/x86_64/cmTC_ff1c2_dependency_info.dat -o /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug/cmTC_ff1c2
+
+RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug/cmTC_ff1c2 (in target 'cmTC_ff1c2' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW
+    builtin-RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-jdDTuW/Debug/cmTC_ff1c2
+
+** BUILD SUCCEEDED **
+
+
+
+...and run output:
+Illegal instruction
+Return value: FAILED_TO_RUN
+Source file was:
+
+        #include <immintrin.h>
+        int main()
+        {
+          __m256 a, b, c;
+          const float src[8] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
+          float dst[8];
+          a = _mm256_loadu_ps( src );
+          b = _mm256_loadu_ps( src );
+          c = _mm256_add_ps( a, b );
+          _mm256_storeu_ps( dst, c );
+
+          for( int i = 0; i < 8; i++ ){
+            if( ( src[i] + src[i] ) != dst[i] ){
+              return -1;
+            }
+          }
+
+          return 0;
+        }
+
+Performing C++ SOURCE FILE Test HAVE_AVX2_EXTENSIONS failed with the following compile output:
+Change Dir: /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b11e4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b11e4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 6d5c2303f938ebd15eab2a09e4603472
+Build description path: /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/XCBuildData/6d5c2303f938ebd15eab2a09e4603472-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/EagerLinkingTBDs
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/cmTC_b11e4.LinkFileList (in target 'cmTC_b11e4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl
+    write-file /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/cmTC_b11e4.LinkFileList
+
+CompileC /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/src.o /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b11e4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos12.5 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_AVX2_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug/include -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/DerivedSources-normal/x86_64 -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/DerivedSources/x86_64 -I/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/DerivedSources -F/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug -mavx2 -MMD -MT dependencies -MF /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/src.dia -c /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/src.cxx -o /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/src.o
+
+Ld /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug/cmTC_b11e4 normal (in target 'cmTC_b11e4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos12.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/EagerLinkingTBDs -L/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug -F/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/EagerLinkingTBDs -F/Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug -filelist /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/cmTC_b11e4.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/cmTC_b11e4_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/build/cmTC_b11e4.build/Debug/Objects-normal/x86_64/cmTC_b11e4_dependency_info.dat -o /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug/cmTC_b11e4
+
+RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug/cmTC_b11e4 (in target 'cmTC_b11e4' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl
+    builtin-RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p3-2-pathtracer-sp23-amongus/xcode/CMakeFiles/CMakeScratch/TryCompile-2D4IKl/Debug/cmTC_b11e4
+
+** BUILD SUCCEEDED **
+
+
+
+...and run output:
+Illegal instruction
+Return value: FAILED_TO_RUN
+Source file was:
+
+        #include <immintrin.h>
+        int main()
+        {
+          __m256i a, b, c;
+          const int src[8] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+          int dst[8];
+          a =  _mm256_loadu_si256( (__m256i*)src );
+          b =  _mm256_loadu_si256( (__m256i*)src );
+          c = _mm256_add_epi32( a, b );
+          _mm256_storeu_si256( (__m256i*)dst, c );
+
+          for( int i = 0; i < 8; i++ ){
+            if( ( src[i] + src[i] ) != dst[i] ){
+              return -1;
+            }
+          }
+
+          return 0;
+        }
+
